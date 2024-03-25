@@ -1,0 +1,7 @@
+sequenceDiagram
+    Main->>+MethodA: call()
+    MethodA->>+MethodB: call()
+    MethodB-->>-MethodA: return
+    MethodA-->>-Main: return
+    Main->>+MethodC: call()
+    MethodC-->>-Main: return
